@@ -19,7 +19,7 @@ function FoodOrderForm() {
       <input
         id="order"
       />
-      {/*<button type="submit">Submit Order</button>*/}
+      <button type="submit">Submit Order</button>
     </form>
   )
 }
