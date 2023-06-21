@@ -20,7 +20,7 @@ function FoodOrderForm() {
   };
 
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <label htmlFor="name">Name:</label>
       <input 
         id="name"
