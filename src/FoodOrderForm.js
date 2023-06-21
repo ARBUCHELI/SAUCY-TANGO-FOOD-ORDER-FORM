@@ -8,6 +8,15 @@ function FoodOrderForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    alert(
+      `
+      Order Successful!
+      \n\n
+      Your order was: ${order}
+      \n\n
+      Please show your confirmation number for pickup.
+    `
+    )
   };
 
   return (
