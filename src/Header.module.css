@@ -2,3 +2,14 @@
     text-align: center;
     font-family: Tahoma, sans-serif;
   }
+
+  .header h1 {
+    color: #bc5a45;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .header p {
+    color: #36486b;
+  }
+  
